@@ -1,11 +1,12 @@
 pipeline {
 
     agent any
-/*
+
 	tools {
-        maven "maven3"
+               maven "MAVEN3.9.9"
+                jdk "JDK17"
     }
-*/
+
     environment {
         registry = "shettysam/vprofile2025app"
         registryCredential = 'dockerhub'
